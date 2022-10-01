@@ -1,0 +1,21 @@
+import java.util.*;
+class valid
+{
+  public static void main(String args[])
+  {
+   String str1,str2;
+   System.out.print("Enter the user name:");
+   Scanner input = new Scanner(System.in);
+   str1 = input.nextLine();
+   System.out.print("Reenter the user name:");
+   str2 = input.nextLine();
+   if(str1.equals(str2))
+     {
+      System.out.print("valid user name");
+     }
+   else
+   {
+   System.out.print("invalid user name");
+   }
+  }
+}
